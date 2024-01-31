@@ -10,10 +10,10 @@ function godear(){
         console.log(`https://wovvdrivesit.wovvtech.com/image/${browser.value}/${file.name}`);
         let img=document.createElement("IMG")
         // browser.replaceChild(" ","%20")
-        img.src=`https://cdnsit.wovvtech.com/image/${browser.value}/${file.name}`
+        img.src=`https://wovvdrivesit.wovvtech.com/image/${browser.value}/${file.name}`
         img.title="click and copy"
         img.onclick=(e)=>{
-            navigator.clipboard.writeText(`https://cdnsit.wovvtech.com/image/${browser.value}/${file.name}`);
+            navigator.clipboard.writeText(`https://wovvdrivesit.wovvtech.com/image/${browser.value}/${file.name}`);
             // console.log(e);
             document.querySelector("p").style.display="inline"
             document.querySelector("p").style.width="80px"
